@@ -1,2 +1,3 @@
 # Web Landing page
- Skilled used HTML ans CSS 
+Skills used - HTML and CSS 
+Utility - To do marketing of brands and drive leads
