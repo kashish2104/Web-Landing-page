@@ -1,2 +1,132 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+</head>
+<style>
+    body{ 
+       background: url('https://wallpapertag.com/wallpaper/full/0/d/e/999774-cool-water-backgrounds-3840x2160-for-iphone-6.jpg');
+    }
+    .left {
+       display: inline-block;
+       position: fixed;
+       left: 3px;
+       top: 2px;
+    }
+    .right{
+        display: inline-block;
+        position: fixed;
+        right: 4px;
+        top: 2px;
+    }
+    .navbar li{
+        display: inline-block;
+        list-style: none;
+    }
+    .navbar li a{
+        padding: 3px 3px;
+        margin: 0px 10px;
+        background-color: aliceblue;
+    }
+    .left img{
+        width: 50px;
+    }
+    .container1{
+        border: 2px solid blue;
+        margin: 70px 500px;
+        padding: 10px 0px;
+        width: 34%;
+        border-radius: 10px;
+        text-align: center;
+        background-color: yellow;
+    }
+    .container2{
+        position: absolute;
+        border: 2px solid blue;
+        margin: 0px 1180px;
+        padding: 25px 10px;
+        width: 19%;
+        border-radius: 15px;
+        text-align: left;
+        background-color: white;
+    }
+    h1{
+        font-style: italic;
+    }
+    
+</style>
+<body>
+    <header class="header">
+        <div class="left"> 
+            <img src="https://thumbs.dreamstime.com/b/swimmer-swimming-club-sports-logo-illustration-emblem-design-you-may-include-your-own-title-top-badge-46116955.jpg"
+            <div><strong>Spring Day Swimming Club</strong></div>
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+             </ul>
+        </div>
+    </header>
+    <div class="container1">
+        <h1><strong>3 Months Summer Swimming Camp</strong></h1>
+        <h4>Starts from 1st April</h4>
+        <h3>Feel the splash of summer!!</h3>
+        </div>
+    <h1>Come join us in the big fun SWIMMING</h1>
+    <h3>(Lessons for everyone)</h3>
+    <p><strong>*20% discount for first 25 applicants</strong></p>
+     <div class="container2">
+        <h3>Register now for 6999/-* only</h3>
+        <form action="backend.php">
+            <div>
+             Name:<input type="text"name="myName">
+            </div>
+            <br>
+            <div>
+                Date of birth:<input type="date"name="myDate">
+            </div>
+            <br>
+            <div>
+                Email id:<input type="email"name="myEmail">
+            </div>
+            <br>
+            <div>
+                Gender: male<input type="radio"name="mygender">female<input type="radio"name="mygender">
+              </div>
+              <br>
+              <div>
+              <label for="time slot">Time slot:</label>
+              <select time="time slot" id="time slot">
+                <option value="9am - 10am">9am - 10am</option>
+                <option value="10am - 11am">10am - 11am</option>
+                <option value="11am - 12am">11am - 12am</option>
+                <option value="5pm - 6pm">5pm - 6pm (only for females)</option>
+                <option value="6pm - 7pm">6pm - 7pm</option>
+                <option value="7pm - 8pm">7pm - 8pm (family hour)</option>
+              </select>
+            </div>
+            <br>
+            <div>
+               I don't have any serious medical issue<input type="checkbox" name="myCheckboxS"> 
+            </div>
+            <br>
+              <div>
+            <input type="submit"value="proceed to pay">
+             <input type="reset"value="Reset now">
+            </div>
+            <br>
+        </form>
+    </div>
+     <img src="https://files.northernbeaches.nsw.gov.au/sites/default/files/styles/gi--main-thumbnail/public/images/general-information/children-s-swim-program/child-learning-to-swim.jpg?itok=19Q8akDG"alt="Error loading image">
+
+    <div>
+    <h3><u>VENUE:-<em> SPRING DAY</em> Swmming Club, Danish Kunj, Kolar Road, Bhopal</u></h3>
+    </div>
+</body>
+</html>
